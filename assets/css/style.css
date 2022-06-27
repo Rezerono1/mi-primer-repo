@@ -1,0 +1,817 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.index__body {
+    max-width: 1520px;
+    display: flex;
+    flex-direction: column;
+    background-image: url("../img/fondoDePantalla2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.index__header {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(239, 165, 52);
+    width: 100%;
+    height: 100px;
+    position: sticky;
+    top: 0%;
+}
+
+.index__header h1 {
+    text-align: center;
+    font-weight: 70px;
+    text-decoration: solid;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.index__header .logo {
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+}
+
+.index__header .redesSociales {
+    display: flex;
+}
+
+.index__header .redesSociales .logoFace {
+    width: 70px;
+    border-radius: 10px;
+}
+
+.index__header .redesSociales .logoInsta {
+    width: 70px;
+    border-radius: 10px;
+}
+
+.index__nav {
+    padding-right: 10px;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    background-color: black;
+    position: sticky;
+    top: 100px;
+}
+
+.index__nav ul {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: end;
+}
+
+.index__nav ul li {
+    list-style: none;
+    padding: 0px 10px;
+}
+
+.index__nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.index__main {
+    padding-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.index__main .introduccion {
+    text-align: left;
+}
+
+.index__main .introduccion h2 {
+    text-align: left;
+    font-weight: 70px;
+    text-decoration: underline;
+    font-size: 50px;
+}
+
+.index__main .introduccion .explicacion {
+    text-align: left;
+    font-size: 25px;
+    line-height: 30px;
+    font-family: 'Gentium Plus', serif;
+    font-weight: 100;
+}
+
+.index__main .conjuntoNarutoDragonBall {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas: "naruto dragonBall";
+    display: flex;
+}
+
+.index__main .conjuntoNarutoDragonBall .conjuntoNaruto {
+    grid-area: naruto;
+    width: 100%;
+}
+
+.index__main .conjuntoNarutoDragonBall .conjuntoNaruto .subtitulo {
+    text-align: center;
+    color: rgb(226, 151, 12);
+    text-decoration: underline;
+    font-weight: 200px;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.index__main .conjuntoNarutoDragonBall .conjuntoNaruto .narutoImg {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.index__main .conjuntoNarutoDragonBall .conjuntoNaruto .narutoImg .img1 {
+    width: 350px;
+    height: 400px;
+    margin: 5px;
+}
+
+.index__main .conjuntoNarutoDragonBall .conjuntoNaruto .descripcion {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.index__main .conjuntoNarutoDragonBall .conjuntoDragonBall {
+    grid-area: dragonBall;
+    width: 100%;
+}
+
+.index__main .conjuntoNarutoDragonBall .conjuntoDragonBall .subtitulo {
+    text-align: center;
+    color: rgb(232, 104, 13);
+    text-decoration: underline;
+    font-weight: 200px;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.index__main .conjuntoNarutoDragonBall .conjuntoDragonBall .dragonBallImg {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.index__main .conjuntoNarutoDragonBall .conjuntoDragonBall .dragonBallImg .img2 {
+    width: 350px;
+    height: 400px;
+    margin: 5px;
+}
+
+.index__main .conjuntoNarutoDragonBall .conjuntoDragonBall .descripcion {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25PX;
+}
+
+.index__main .conjuntoOnePieceDemonSlayer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas: "onePiece DemonSlayer";
+    display: flex;
+}
+
+.index__main .conjuntoOnePieceDemonSlayer .conjuntoOnePiece {
+    grid-area: onePiece;
+    width: 100%;
+}
+
+.index__main .conjuntoOnePieceDemonSlayer .conjuntoOnePiece .subtitulo {
+    text-align: center;
+    color: rgb(69, 223, 49);
+    text-decoration: underline;
+    font-weight: 200px;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.index__main .conjuntoOnePieceDemonSlayer .conjuntoOnePiece .onePieceImg {
+    width: 100%;
+    height: 480px;
+    display: flex;
+    justify-content: center;
+}
+
+.index__main .conjuntoOnePieceDemonSlayer .conjuntoOnePiece .onePieceImg .img3 {
+    width: 350px;
+    margin: 5px;
+}
+
+.index__main .conjuntoOnePieceDemonSlayer .conjuntoOnePiece .descripcion {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.index__main .conjuntoOnePieceDemonSlayer .conjuntoDemonSlayer {
+    grid-area: demonSlayer;
+    width: 100%;
+}
+
+.index__main .conjuntoOnePieceDemonSlayer .conjuntoDemonSlayer .subtitulo {
+    text-align: center;
+    color: rgb(151, 39, 22);
+    text-decoration: underline;
+    font-weight: 200px;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.index__main .conjuntoOnePieceDemonSlayer .conjuntoDemonSlayer .demonSlayerImg {
+    width: 100%;
+    height: 480px;
+    display: flex;
+    justify-content: center;
+}
+
+.index__main .conjuntoOnePieceDemonSlayer .conjuntoDemonSlayer .demonSlayerImg .img4 {
+    width: 350px;
+    margin: 5px;
+}
+
+.index__main .conjuntoOnePieceDemonSlayer .conjuntoDemonSlayer .descripcion {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.index__footer {
+    margin-top: 15px;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(10, 9, 50);
+}
+
+.index__footer .pieDePagina {
+    color: white;
+    margin-left: 20px;
+    text-align: left;
+    font-weight: 200px;
+    font-size: 25px;
+}
+
+@media(max-width:750px) {
+    .index__body {
+        max-width: 750px;
+        display: flex;
+        flex-direction: column;
+        background-image: url("../img/fondoDePantalla2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .index__header {
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: rgb(239, 165, 52);
+        width: 100%;
+        height: 100px;
+        position: sticky;
+        top: 0%;
+    }
+    .index__header h1 {
+        text-align: center;
+        font-weight: 70px;
+        text-decoration: solid;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .index__header .logo {
+        width: 70px;
+        height: 70px;
+        border-radius: 10px;
+    }
+    .index__header .redesSociales {
+        display: flex;
+    }
+    .index__header .redesSociales .logoFace {
+        width: 70px;
+        border-radius: 10px;
+    }
+    .index__header .redesSociales .logoInsta {
+        width: 70px;
+        border-radius: 10px;
+    }
+    .index__nav {
+        padding-right: 10px;
+        display: flex;
+        width: 100%;
+        height: 50px;
+        align-items: center;
+        background-color: black;
+        position: sticky;
+        top: 100px;
+    }
+    .index__nav ul {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: end;
+    }
+    .index__nav ul li {
+        list-style: none;
+        padding: 0px 10px;
+    }
+    .index__nav ul li a {
+        text-decoration: none;
+        color: white;
+    }
+    .index__main {
+        padding-left: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .index__main .introduccion {
+        text-align: left;
+    }
+    .index__main .introduccion h2 {
+        text-align: left;
+        font-weight: 70px;
+        text-decoration: underline;
+        font-size: 50px;
+    }
+    .index__main .introduccion .explicacion {
+        text-align: left;
+        font-size: 25px;
+        line-height: 30px;
+        font-family: 'Gentium Plus', serif;
+        font-weight: 100;
+    }
+    .index__main .conjuntoNarutoDragonBall {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .index__main .conjuntoNarutoDragonBall .conjuntoNaruto {
+        width: 100%;
+    }
+    .index__main .conjuntoNarutoDragonBall .conjuntoNaruto .subtitulo {
+        text-align: center;
+        color: rgb(226, 151, 12);
+        text-decoration: underline;
+        font-weight: 200px;
+        font-size: 50px;
+        margin-bottom: 10px;
+    }
+    .index__main .conjuntoNarutoDragonBall .conjuntoNaruto .narutoImg {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .index__main .conjuntoNarutoDragonBall .conjuntoNaruto .narutoImg .img1 {
+        width: 450px;
+        margin: 5px;
+    }
+    .index__main .conjuntoNarutoDragonBall .conjuntoNaruto .descripcion {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+    }
+    .index__main .conjuntoNarutoDragonBall .conjuntoDragonBall {
+        grid-area: dragonBall;
+        width: 100%;
+    }
+    .index__main .conjuntoNarutoDragonBall .conjuntoDragonBall .subtitulo {
+        text-align: center;
+        color: rgb(232, 104, 13);
+        text-decoration: underline;
+        font-weight: 200px;
+        font-size: 50px;
+        margin-bottom: 10px;
+    }
+    .index__main .conjuntoNarutoDragonBall .conjuntoDragonBall .dragonBallImg {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .index__main .conjuntoNarutoDragonBall .conjuntoDragonBall .dragonBallImg .img2 {
+        width: 450px;
+        margin: 5px;
+    }
+    .index__main .conjuntoNarutoDragonBall .conjuntoDragonBall .descripcion {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25PX;
+    }
+    .index__main .conjuntoOnePieceDemonSlayer {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .index__main .conjuntoOnePieceDemonSlayer .conjuntoOnePiece {
+        grid-area: onePiece;
+        width: 100%;
+    }
+    .index__main .conjuntoOnePieceDemonSlayer .conjuntoOnePiece .subtitulo {
+        text-align: center;
+        color: rgb(69, 223, 49);
+        text-decoration: underline;
+        font-weight: 200px;
+        font-size: 50px;
+        margin-bottom: 10px;
+    }
+    .index__main .conjuntoOnePieceDemonSlayer .conjuntoOnePiece .onePieceImg {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .index__main .conjuntoOnePieceDemonSlayer .conjuntoOnePiece .onePieceImg .img3 {
+        width: 450px;
+        margin: 5px;
+    }
+    .index__main .conjuntoOnePieceDemonSlayer .conjuntoOnePiece .descripcion {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+    }
+    .index__main .conjuntoOnePieceDemonSlayer .conjuntoDemonSlayer {
+        width: 100%;
+    }
+    .index__main .conjuntoOnePieceDemonSlayer .conjuntoDemonSlayer .subtitulo {
+        text-align: center;
+        color: rgb(151, 39, 22);
+        text-decoration: underline;
+        font-weight: 200px;
+        font-size: 50px;
+        margin-bottom: 10px;
+    }
+    .index__main .conjuntoOnePieceDemonSlayer .conjuntoDemonSlayer .demonSlayerImg {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .index__main .conjuntoOnePieceDemonSlayer .conjuntoDemonSlayer .demonSlayerImg .img4 {
+        width: 450px;
+        margin: 5px;
+    }
+    .index__main .conjuntoOnePieceDemonSlayer .conjuntoDemonSlayer .descripcion {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+    }
+    .index__footer {
+        margin-top: 15px;
+        width: 100%;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        background-color: rgb(10, 9, 50);
+    }
+    .index__footer .pieDePagina {
+        color: white;
+        margin-left: 20px;
+        text-align: left;
+        font-weight: 200px;
+        font-size: 25px;
+    }
+}
+
+.animesFavoritos__body {
+    max-width: 1520px;
+    display: flex;
+    flex-direction: column;
+    background-image: url("../img/fondoDePantalla2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.animesFavoritos__header {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(239, 165, 52);
+    width: 100%;
+    height: 100px;
+    position: sticky;
+    top: 0%;
+}
+
+.animesFavoritos__header h1 {
+    text-align: center;
+    font-weight: 70px;
+    text-decoration: solid;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.animesFavoritos__header .logo {
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+}
+
+.animesFavoritos__header .redesSociales {
+    display: flex;
+}
+
+.animesFavoritos__header .redesSociales .logoFace {
+    width: 70px;
+    border-radius: 10px;
+}
+
+.animesFavoritos__header .redesSociales .logoInsta {
+    width: 70px;
+    border-radius: 10px;
+}
+
+.animesFavoritos__nav {
+    padding-right: 10px;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    background-color: black;
+    position: sticky;
+    top: 100px;
+}
+
+.animesFavoritos__nav ul {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: end;
+}
+
+.animesFavoritos__nav ul li {
+    list-style: none;
+    padding: 0px 10px;
+}
+
+.animesFavoritos__nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.animesFavoritos__main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas: "naruto dragonBall" "onePiece demonSlayer";
+    justify-items: center;
+    align-items: center;
+}
+
+.animesFavoritos__main .videoNaruto {
+    grid-area: naruto;
+    width: 1fr;
+}
+
+.animesFavoritos__main .videoNaruto h3 {
+    text-align: left;
+    color: rgb(226, 151, 12);
+    text-decoration: underline;
+    font-weight: 200px;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.animesFavoritos__main .videoNaruto p {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.animesFavoritos__main .videoDragonBall {
+    grid-area: dragonBall;
+    width: 1fr;
+}
+
+.animesFavoritos__main .videoDragonBall h3 {
+    text-align: left;
+    color: rgb(232, 104, 13);
+    text-decoration: underline;
+    font-weight: 200px;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.animesFavoritos__main .videoDragonBall p {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.animesFavoritos__main .videoOnePiece {
+    grid-area: onePiece;
+    width: 1fr;
+}
+
+.animesFavoritos__main .videoOnePiece h3 {
+    text-align: left;
+    color: rgb(202, 202, 65);
+    text-decoration: underline;
+    font-weight: 200px;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.animesFavoritos__main .videoOnePiece p {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.animesFavoritos__main .videoDemonSlayer {
+    grid-area: demonSlayer;
+    width: 1fr;
+}
+
+.animesFavoritos__main .videoDemonSlayer h3 {
+    text-align: left;
+    color: rgb(216, 36, 36);
+    text-decoration: underline;
+    font-weight: 200px;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.animesFavoritos__main .videoDemonSlayer p {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.animesFavoritos__footer {
+    margin-top: 15px;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(10, 9, 50);
+}
+
+.animesFavoritos__footer .pieDePagina {
+    color: white;
+    margin-left: 20px;
+    text-align: left;
+    font-weight: 200px;
+    font-size: 25px;
+}
+
+@media(max-width:970px) {
+    .animesFavoritos__body {
+        display: flex;
+        flex-direction: column;
+        background-image: url("../img/fondoDePantalla2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .animesFavoritos__header {
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: rgb(239, 165, 52);
+        width: 100%;
+        height: 100px;
+        position: sticky;
+        top: 0%;
+    }
+    .animesFavoritos__header h1 {
+        text-align: center;
+        font-weight: 70px;
+        text-decoration: solid;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .animesFavoritos__header .logo {
+        width: 70px;
+        height: 70px;
+        border-radius: 10px;
+    }
+    .animesFavoritos__header .redesSociales {
+        display: flex;
+    }
+    .animesFavoritos__header .redesSociales .logoFace {
+        width: 70px;
+        border-radius: 10px;
+    }
+    .animesFavoritos__header .redesSociales .logoInsta {
+        width: 70px;
+        border-radius: 10px;
+    }
+    .animesFavoritos__nav {
+        padding-right: 10px;
+        display: flex;
+        width: 100%;
+        height: 50px;
+        align-items: center;
+        background-color: black;
+        position: sticky;
+        top: 100px;
+    }
+    .animesFavoritos__nav ul {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: end;
+    }
+    .animesFavoritos__nav ul li {
+        list-style: none;
+        padding: 0px 10px;
+    }
+    .animesFavoritos__nav ul li a {
+        text-decoration: none;
+        color: white;
+    }
+    .animesFavoritos__main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-items: center;
+        align-items: center;
+    }
+    .animesFavoritos__main .videoNaruto {
+        width: 100%;
+    }
+    .animesFavoritos__main .videoNaruto h3 {
+        text-align: left;
+        color: rgb(226, 151, 12);
+        text-decoration: underline;
+        font-weight: 200px;
+        font-size: 50px;
+        margin-bottom: 10px;
+    }
+    .animesFavoritos__main .videoNaruto p {
+        text-align: left;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+    }
+    .animesFavoritos__main .videoDragonBall {
+        width: 100%;
+    }
+    .animesFavoritos__main .videoDragonBall h3 {
+        text-align: left;
+        color: rgb(232, 104, 13);
+        text-decoration: underline;
+        font-weight: 200px;
+        font-size: 50px;
+        margin-bottom: 10px;
+    }
+    .animesFavoritos__main .videoDragonBall p {
+        text-align: left;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+    }
+    .animesFavoritos__main .videoOnePiece {
+        width: 100%;
+    }
+    .animesFavoritos__main .videoOnePiece h3 {
+        text-align: left;
+        color: rgb(202, 202, 65);
+        text-decoration: underline;
+        font-weight: 200px;
+        font-size: 50px;
+    }
+    .animesFavoritos__main .videoOnePiece p {
+        text-align: left;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+    }
+    .animesFavoritos__main .videoDemonSlayer {
+        width: 100%;
+    }
+    .animesFavoritos__main .videoDemonSlayer h3 {
+        text-align: left;
+        color: rgb(216, 36, 36);
+        text-decoration: underline;
+        font-weight: 200px;
+        font-size: 50px;
+        margin-bottom: 10px;
+    }
+    .animesFavoritos__main .videoDemonSlayer p {
+        text-align: left;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+    }
+    .animesFavoritos__footer {
+        margin-top: 15px;
+        width: 100%;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        background-color: rgb(10, 9, 50);
+    }
+    .animesFavoritos__footer .pieDePagina {
+        color: white;
+        margin-left: 20px;
+        text-align: left;
+        font-weight: 200px;
+        font-size: 25px;
+    }
+}

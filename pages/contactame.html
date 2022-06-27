@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../assets/img/logoDeIcono.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <title>Contactame</title>
+
+</head>
+
+<body>
+    <header class="contactame__header">
+        <div><img src="../assets/img/Logo.jpg" alt="mi logo" class="logo"></div>
+        <h1>Contactame</h1>
+        <div class="redesSociales">
+            <img src="../assets/img/logoDeFacebook.jpg" alt="logo de facebook" class="logoFace">
+            <img src="../assets/img/logoDeInstagram.jpg" alt="logo de instagram" class="logoInsta">
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="./animesFavoritos.html">Animes Favoritos</a></li>
+            <li><a href="./productos.html">Productos</a></li>
+            <li><a href="./hacercaDeMi.html">Hacerca de Mi</a></li>
+            <li><a href="./ubicacion.html">Ubicacion</a></li>
+            <li><a href="./contactame.html">Contactame</a></li>
+        </ul>
+    </nav>
+    <main>
+        <form action="contacto.php" method="post">
+            <input type="number" name="dni" id="dni" placeholder="ingrese su DNI" required>
+            <input type="text" name="nombre" id="nombre" placeholder="colocar nombre" required>
+            <div>
+                <label for="Sexo">Hombre</label>
+                <input type="radio" name="Sexo" value="H">
+                <label for="Sexo">Mujer</label>
+                <input type="radio" name="Sexo" value="M">
+                <label for="Sexo">No Binario</label>
+                <input type="radio" name="Sexo" value="NB">
+            </div>
+            <input type="email" name="email" id="email" placeholder="introduzca su E-MAIL" required>
+            <textarea name="comentario" id="comentario" cols="30" rows="10">coloque su comentario</textarea>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Reiniciar">
+            <div>
+                <label for="si">acepto terminos y coniciones</label>
+                <input type="checkbox" name="aceptar" id="si" required>
+            </div>
+        </form>
+    </main>
+    <aside></aside>
+    <footer>
+        <p class="pieDePagina"> ©Whasho, todos los derechos reservados</p>
+    </footer>
+</body>
+
+</html>
